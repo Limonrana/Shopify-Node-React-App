@@ -1,0 +1,34 @@
+{
+  "name": "print-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@shopify/app-bridge-react": "^1.30.0",
+    "@shopify/koa-shopify-auth": "^4.1.3",
+    "@shopify/polaris": "^6.3.0",
+    "dotenv": "^8.2.0",
+    "isomorphic-fetch": "^3.0.0",
+    "koa": "^2.13.1",
+    "koa-router": "^8.0.8",
+    "next": "^10.2.0",
+    "nuxt": "^2.15.4",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "webpack": "^4.46.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.13",
+    "tailwindcss": "^2.1.2"
+  }
+}
